@@ -1,0 +1,47 @@
+.bg-page {
+  background-image: url('/public/CatagoryImgs/backgroundimage.avif'); /* place inside public/images */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-title {
+  font-weight: 700;
+  color: #198754;
+}
+
+.form-control {
+  border-radius: 12px;
+}
+
+.btn-success {
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 0.6rem;
+  background-color: #198754;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+}
+
+.validation-error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
